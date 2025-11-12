@@ -30,7 +30,7 @@ This project demonstrates the implementation of complete **CRUD (Create, Read, U
 ---
 
 ## 📁 Folder Structure
-
+```markdown
 usaha-sukses/
 ├── assets/ # styles, scripts, and images
 ├── controllers/ # application logic (CRUD process)
@@ -39,7 +39,7 @@ usaha-sukses/
 ├── config.php # database connection setup
 ├── functions.php # helper functions (redirect, flash message, etc.)
 └── index.php # main entry point
-
+```
 ---
 
 ## 🎯 Purpose
