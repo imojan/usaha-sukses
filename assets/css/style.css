@@ -1,0 +1,179 @@
+/* ============================
+   BASE & TYPOGRAPHY
+   ============================ */
+
+/* Gunakan font Poppins untuk seluruh tampilan */
+html, body { height: 100%; }
+body {
+  display: flex;            /* untuk sticky footer */
+  flex-direction: column;   /* untuk sticky footer */
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+/* Heading & branding sedikit lebih tegas */
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+  font-weight: 600;
+}
+
+/* Styling opsional untuk mempercantik tampilan */
+.navbar-brand span { letter-spacing: 0.3px; }
+
+.btn {
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+/* Label form sedikit tebal */
+.form-label { font-weight: 500; }
+
+/* ============================
+   TABLE (garis + header)
+   ============================ */
+.table { border-collapse: collapse !important; }
+
+.table th,
+.table td {
+  border: 1px solid #ffffff !important; /* <-- garis antar kolom terlihat */
+  vertical-align: middle;
+}
+
+.table thead th {
+  text-align: center;           /* rata tengah header */
+  background-color: #202759;    /* kuning header */
+  color: #ffffff;                  /* teks kontras (ganti #fff jika mau putih) */
+  font-weight: 600;
+}
+
+/* ============================
+   FOOTER (Sticky + Responsive)
+   ============================ */
+main { flex: 1; } /* dorong footer ke bawah kalau konten sedikit */
+
+.footer-custom {
+  background-color: #e0a800; /* kuning tua khas Usaha Sukses */
+  color: #ffffff;
+  width: 100%;
+  border-top: none;
+}
+
+.footer-custom .container {
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.footer-custom strong { font-weight: 600; }
+
+@media (max-width: 768px) {
+  .footer-custom .container {
+    font-size: 13px;
+    padding: 0 1rem;
+  }
+}
+
+/* ============================
+   SOFT FORM (ala contoh pricing)
+   ============================ */
+.soft-card {
+  background: #fff;
+  border: 1px solid #eef0f2;
+  border-radius: 16px;
+  box-shadow: 0 1px 2px rgba(16,24,40,.04);
+}
+
+.section-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #111827;
+}
+
+.help-text { color: #6b7280; font-size: 12px; }
+
+.soft-input {
+  background: #f7f9fb !important;      /* lembut, abu sangat muda */
+  border: 1px solid #e5e7eb !important; /* border halus */
+  border-radius: 10px !important;
+  height: 44px;
+}
+.soft-input:focus {
+  background: #fff !important;
+  border-color: #c7d2fe !important;     /* biru lembut fokus */
+  box-shadow: 0 0 0 .2rem rgba(59,130,246,.12) !important;
+}
+
+.input-compact .form-label {
+  font-size: 13px;
+  color: #374151;
+  margin-bottom: .35rem;
+}
+
+.card-divider {
+  height: 1px;
+  background: #f0f2f5;
+  margin: 12px 0 16px;
+  border-radius: 999px;
+}
+
+/* tombol ala modern */
+.btn-primary {
+  border-radius: 10px;
+  padding: .6rem 1rem;
+  font-weight: 600;
+}
+.btn-light.border { border-radius: 10px; }
+
+/* ====== Toolbar: Search & Sort (fix jarak ikon vs field) ====== */
+
+/* 1) Bikin jarak antar anak di input-group */
+.searchbar .input-group,
+.sort-select .input-group {
+  gap: 10px;                 /* <-- inti perbaikan: beri ruang 10px */
+}
+
+/* 2) Pastikan tiap komponen tetap rounded walau tidak menempel */
+.searchbar .input-group-text,
+.searchbar .form-control,
+.searchbar .btn-search,
+.sort-select .input-group-text,
+.sort-select .form-select {
+  border-radius: 999px !important;
+  border-color: #e5e7eb !important;
+}
+
+/* 3) Warna & feel lembut */
+.searchbar .form-control,
+.sort-select .form-select,
+.searchbar .input-group-text,
+.sort-select .input-group-text,
+.searchbar .btn-search {
+  background: #f7f9fb !important;
+}
+
+/* 4) Spasi internal di ikon biar nggak mepet */
+.searchbar .input-group-text,
+.sort-select .input-group-text {
+  padding: 8px 12px !important;
+  color: #6b7280;
+}
+
+/* 5) Sedikit ruang setelah ikon di dalam field */
+.searchbar .form-control { padding-left: 8px !important; }
+.sort-select .form-select { padding-left: 10px !important; }
+
+/* 6) Fokus lembut */
+.searchbar .form-control:focus,
+.sort-select .form-select:focus {
+  border-color: #c7d2fe !important;
+  box-shadow: 0 0 0 .2rem rgba(59,130,246,.12) !important;
+  background: #fff !important;
+}
+
+/* 7) Di layar kecil, masing-masing full width biar rapi */
+@media (max-width: 576px) {
+  .searchbar, .sort-select { width: 100%; }
+}
+
+.text-primary-dark {
+  color: #202759 !important;
+}
