@@ -50,11 +50,17 @@ Developed as part of the **BNSP Junior Web Developer certification test**, this 
 
 ---
 
-## 📸 Preview
-<img width="1680" height="963" alt="Screenshot 2025-11-12 at 8 39 19 AM" src="https://github.com/user-attachments/assets/613152de-48c5-4ef9-9af5-9988f7f30717" />
-<img width="1680" height="963" alt="Screenshot 2025-11-12 at 8 40 46 AM" src="https://github.com/user-attachments/assets/9f868a7e-a448-4837-acff-c152fc3f0ddd" />
-<img width="1680" height="963" alt="Screenshot 2025-11-12 at 8 41 39 AM" src="https://github.com/user-attachments/assets/c1842119-0d22-453d-b752-daade007d0c8" />
-<img width="1680" height="963" alt="Screenshot 2025-11-12 at 8 41 52 AM" src="https://github.com/user-attachments/assets/45ecedcc-0157-4a3f-bc66-70b8e85c848c" />
+## 📸 Preview (Swipe/Scroll ➜)
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/613152de-48c5-4ef9-9af5-9988f7f30717" alt="Products" width="520"></td>
+    <td><img src="https://github.com/user-attachments/assets/9f868a7e-a448-4837-acff-c152fc3f0ddd" alt="Create Product" width="520"></td>
+    <td><img src="https://github.com/user-attachments/assets/c1842119-0d22-453d-b752-daade007d0c8" alt="Edit Product" width="520"></td>
+    <td><img src="https://github.com/user-attachments/assets/45ecedcc-0157-4a3f-bc66-70b8e85c848c" alt="Show Product" width="520"></td>
+  </tr>
+</table>
+
 
 ---
 
