@@ -77,7 +77,7 @@ Developed as part of the **BNSP Junior Web Developer certification test**, this 
 ## 🚀 How to Run Locally
 1. Clone this repository:
    ```bash
-   git clone https://github.com/mfauzans/usaha-sukses.git
+   git clone https://github.com/imojan/usaha-sukses.git
 2. Move into the project folder:
    ```bash
    cd usaha-sukses
