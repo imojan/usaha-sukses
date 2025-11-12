@@ -67,7 +67,7 @@ Developed as part of the **BNSP Junior Web Developer certification test**, this 
   </table>
 
   <br>
-  <p align="center"><i>Geser ke kanan untuk melihat tampilan lainnya ➜</i></p>
+  <p align="center"><i>Get inside the picture by click again for more detail👆🏻</i></p>
 
 </details>
 
