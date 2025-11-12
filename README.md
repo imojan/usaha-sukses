@@ -30,13 +30,15 @@ This project demonstrates the implementation of complete **CRUD (Create, Read, U
 ---
 
 ## 📁 Folder Structure
-/assets → styles, scripts, and images
-/controllers → application logic (CRUD process)
-/models → database functions
-/views → page templates and UI
-/config.php → database connection setup
-/functions.php→ helper functions (redirect, flash message, etc.)
-/index.php → main entry point
+
+usaha-sukses/
+├── assets/ # styles, scripts, and images
+├── controllers/ # application logic (CRUD process)
+├── models/ # database interaction functions
+├── views/ # page templates and UI
+├── config.php # database connection setup
+├── functions.php # helper functions (redirect, flash message, etc.)
+└── index.php # main entry point
 
 ---
 
