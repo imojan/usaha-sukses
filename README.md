@@ -50,16 +50,26 @@ Developed as part of the **BNSP Junior Web Developer certification test**, this 
 
 ---
 
-## 📸 Preview (Swipe/Scroll ➜)
+## 📸 Preview
 
-<table>
-  <tr>
-    <td><img src="https://github.com/user-attachments/assets/613152de-48c5-4ef9-9af5-9988f7f30717" alt="Products" width="520"></td>
-    <td><img src="https://github.com/user-attachments/assets/9f868a7e-a448-4837-acff-c152fc3f0ddd" alt="Create Product" width="520"></td>
-    <td><img src="https://github.com/user-attachments/assets/c1842119-0d22-453d-b752-daade007d0c8" alt="Edit Product" width="520"></td>
-    <td><img src="https://github.com/user-attachments/assets/45ecedcc-0157-4a3f-bc66-70b8e85c848c" alt="Show Product" width="520"></td>
-  </tr>
-</table>
+<details>
+  <summary>📷 Click if u want to see the preview clearly</summary>
+
+  <br>
+
+  <table>
+    <tr>
+      <td><img src="https://github.com/user-attachments/assets/613152de-48c5-4ef9-9af5-9988f7f30717" alt="Dashboard Produk" width="520"></td>
+      <td><img src="https://github.com/user-attachments/assets/9f868a7e-a448-4837-acff-c152fc3f0ddd" alt="Tambah Produk" width="520"></td>
+      <td><img src="https://github.com/user-attachments/assets/c1842119-0d22-453d-b752-daade007d0c8" alt="Edit Produk" width="520"></td>
+      <td><img src="https://github.com/user-attachments/assets/45ecedcc-0157-4a3f-bc66-70b8e85c848c" alt="Detail Produk" width="520"></td>
+    </tr>
+  </table>
+
+  <br>
+  <p align="center"><i>Geser ke kanan untuk melihat tampilan lainnya ➜</i></p>
+
+</details>
 
 
 ---
